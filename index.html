@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration_form</title>
+  <link rel="stylesheet" href="./registration.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="main">
+    <div class="container center">
+      <h1>Registration Form</h1>
+
+      <div class="inputs">
+        <div id="packet">
+            <i class="fa-solid fa-person"></i>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div id="packet">
+          <i class="fa-solid fa-id-badge"></i>
+          <input type="text" id="userId" placeholder="Create user id">
+        </div>
+
+        <div id="packet">
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div id="packet2">
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+        </div>
+
+        <div id="packet">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" id="password" placeholder="Set password">
+        </div>
+
+        <button>Submit details</button>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="./registration.js"></script>
+</body>
+</html>
