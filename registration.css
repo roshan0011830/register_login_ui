@@ -29,8 +29,8 @@
   
   .container h1 {
     color: white;
-    /* background-color: #138d75; */
-    background-color: black;
+    background-color: #138d75;
+
     padding: 10px 20px;
     text-align: center;
     font-weight: bold;
